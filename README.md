@@ -1,4 +1,13 @@
-# Apple II VGA Card
+# Experiment: Can we give the Apple II WiFi by modding an existing RP2040-based Apple II VGA card?
+
+Just starting this experiment; no changes have been committed in my branch yet. Check back later.
+
+## Original README follows!
+
+----------
+----------
+
+## Apple II VGA Card
 
 This project is a VGA card for Apple II computers to ouput a crisp RGB signal to a
 VGA monitor instead of having to rely on the composite output. This is accomplished
@@ -42,7 +51,7 @@ I also wanted to see if a Pi Pico could actually work on an 8-bit CPU bus, since
 say it should work but there were no code examples.
 
 
-## Project Status
+### Project Status
 
 This is currently a DIY project that several folks have built on their own, ranging from
 [hand-wired prototype boards](docs/prototype_card.jpg) to
@@ -77,7 +86,7 @@ _thanks to @swetland for [this idea](https://github.com/markadev/AppleII-VGA/dis
 ![Live action shot](docs/installed_in_iie.jpg)
 
 
-## Comparisons
+### Comparisons
 
 Here are a few comparisons of the VGA card output vs composite video through
 a cheap composite -> HDMI adapter
@@ -98,7 +107,7 @@ a cheap composite -> HDMI adapter
 ![80 Columms Mode](docs/composite_vs_vga_80columms.jpg)
 
 
-## Future work
+### Future work
 
 With the Rev B hardware design, the firmware has access to the Apple bus' SYNC signal
 when installed in slot 7. Theoretically the firmware could synchronize the VGA display
